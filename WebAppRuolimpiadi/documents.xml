@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<archive>
+  <document id="0" title="1. Richiesta di soccorso prioritaria" visible="yes" src="1. Richiesta di soccorso prioritaria.txt"/>
+  <document id="1" title="2. Archivio Inquisitorio 827-441" visible="yes" src="2. Archivio Inquisitorio 827-441.txt"/>
+  <document id="2" title="3. Report missione 042-34E3-D45" visible="yes" src="3. Report missione 042-34E3-D45.txt"/>
+  <document id="3" title="obbiettivi1" visible="no" src="obbiettivi1.txt"/>
+  <document id="4" title="obbiettivi2" visible="no" src="obbiettivi2.txt"/>
+</archive>

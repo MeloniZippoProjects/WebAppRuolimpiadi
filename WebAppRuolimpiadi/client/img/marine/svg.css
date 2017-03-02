@@ -1,0 +1,35 @@
+﻿.black
+{
+    fill:black!important;
+}
+
+.green
+{
+    fill:lawngreen!important;
+}
+
+.yellow
+{
+    fill:yellow!important;
+}
+
+.orange
+{
+    fill:orange!important;
+}
+
+.red
+{
+    fill:red!important;
+}
+
+.white
+{
+    display:inline!important;
+    fill:white!important;
+}
+
+.hide
+{
+    display:none!important;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<marines>
+  
+  <marine id="0">
+    <hp value="16"/>
+    <bodyStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="removed"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </bodyStatus>
+    <armorStatus>
+      <head value="0"/>
+      <torso value="5"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="6"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </armorStatus>
+  </marine>
+
+  <marine id="1">
+    <hp value="6"/>
+    <bodyStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </bodyStatus>
+    <armorStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="5"/>
+    </armorStatus>
+  </marine>
+
+  <marine id="2">
+    <hp value="20"/>
+    <bodyStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </bodyStatus>
+    <armorStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="removed"/>
+    </armorStatus>
+  </marine>
+
+  <marine id="3">
+    <hp value="26"/>
+    <bodyStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </bodyStatus>
+    <armorStatus>
+      <head value="0"/>
+      <torso value="0"/>
+      <legR value="0"/>
+      <legL value="0"/>
+      <armR value="0"/>
+      <armL value="0"/>
+      <pack value="no"/>
+    </armorStatus>
+  </marine>
+</marines>

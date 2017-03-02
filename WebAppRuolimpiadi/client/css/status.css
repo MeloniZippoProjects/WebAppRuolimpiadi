@@ -1,0 +1,17 @@
+﻿body{
+	background: grey;
+}
+
+p.name, p.view{
+	text-align: center;
+}
+
+#marines > div{
+	display: inline-block;
+}
+
+object
+{
+    width:350px;
+    height:400px;
+}

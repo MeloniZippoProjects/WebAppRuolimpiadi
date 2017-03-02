@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <script src="../../jquery.js" type="text/javascript"></script>
+
+    <script src="./../js/status/marines/objectsSetup.js" type="text/javascript"></script>
+    <script src="./../js/status/marines/SpaceMarine.js" type="text/javascript"></script>
+    <script src="./../js/status/marines/ajaxRoutine.js" type="text/javascript"></script>
+
+    <script src="./../js/status/documents.js" type="text/javascript"></script>
+    <script src="./../js/status/maps.js" type="text/javascript"></script>
+    <script src="./../js/status/handler.js" type="text/javascript"></script>
+
+    <script src="./../js/status/startup.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="./../css/mainUI.css"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+</head>
+<body>
+    <audio id="alarm" src="./../sound/alarm.mp3" style="display: none"></audio>
+    <div id="marines">
+        <div class="marineDiv reverse" style=" position : fixed; left : 0; top : 0;">
+            <p class="name">Marine 1</p>
+            <object type="image/svg+xml" data="../img/marine/scout.svg">Your browser does not support SVG</object>
+            <object type="image/svg+xml" data="../img/marine/corpo.svg">Your browser does not support SVG</object>
+            <p class="view">Armatura</p>
+        </div>
+        <div class="marineDiv" style=" position : fixed; left : 0; bottom : 0;">
+            <p class="name">Marine 2</p>
+            <object type="image/svg+xml" data="../img/marine/artificer.svg">Your browser does not support SVG</object>
+            <object type="image/svg+xml" data="../img/marine/corpo.svg">Your browser does not support SVG</object>
+            <p class="view">Armatura</p>
+        </div>
+        <div class="marineDiv reverse" style=" position : fixed; right : 0; top : 0;">
+            <p class="name">Marine 3</p>
+            <object type="image/svg+xml" data="../img/marine/viii.svg">Your browser does not support SVG</object>
+            <object type="image/svg+xml" data="../img/marine/corpo.svg">Your browser does not support SVG</object>
+            <p class="view">Armatura</p>
+        </div>
+        <div class="marineDiv" style=" position : fixed; right : 0; bottom : 0;">
+            <p class="name">Marine 4</p>
+            <object type="image/svg+xml" data="../img/marine/terminator.svg">Your browser does not support SVG</object>
+            <object type="image/svg+xml" data="../img/marine/corpo.svg">Your browser does not support SVG</object>
+            <p class="view">Armatura</p>
+        </div>
+    </div>
+
+    <img id="map" src="./../../mappe/panoramica.jpg"/>
+
+    <img id="maps-icon-open" src="../img/cartograph.png" />
+    <img id="docs-icon-open" src="../img/DeathwatchBadge.png" />
+    
+    <div id="zoom"><input type="range" min="0.5" max="5" step="0.1" value="1" /></div>
+    
+    <div id="handlerDiv">
+        <div id="docList" class="list"></div>
+        <div id="mapList" class="list"></div>
+        
+        <div id="docShow">
+            <p id="text"></p>
+        </div>
+
+        <p id="noMaps">Questo cartografo non contiene alcuna mappa</p>
+        <p id="noDocs">Questa lavagna dati non contiene alcun documento</p>
+
+        <img id="handler-icon-close" src="../img/close.png" />
+        <img id="handler-icon-rotate" src="../img/rotate.png" />
+    </div>
+
+<!--
+    <div id="mapsDiv">
+
+        <img id="maps-icon-close" src="../img/close.svg" />
+        <img id="maps-icon-rotate" src="../img/rotate.svg" />
+    </div>
+-->
+
+</body>
+</html>

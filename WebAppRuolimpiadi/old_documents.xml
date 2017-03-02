@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<archive>
+  <document id="0">
+    <title value="+++Richiesta di soccorso prioritaria+++" />
+    <visible value="yes" />
+    <src value="intro1.txt" />
+  </document>
+  
+  <document id="1">
+    <title value="Archivio Inquisitorio 827/441" />
+    <visible value="yes" />
+    <src value="intro2.txt" />
+  </document>
+  
+  <document id="2">
+    <title value="Report missione 042/34E3/D45" />
+    <visible value="yes" />
+    <src value="intro3.txt" />
+  </document>
+
+  <!--
+  <document id="2">
+    <title value="Report missione 042/34E3/D45" />
+    <visible value="yes" />
+    <src value="intro3.txt" />
+  </document> 
+  -->
+</archive>

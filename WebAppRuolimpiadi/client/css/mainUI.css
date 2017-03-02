@@ -1,0 +1,221 @@
+﻿body::-webkit-scrollbar
+{
+    display:none;
+}
+
+body{
+	overflow: hidden;
+}
+
+html
+{
+    height:100%;
+    width:100%;
+    margin:0 0;
+}
+
+.marineDiv{
+	text-align: center;
+	height: 49%;
+	width: 20%;
+
+	background-image: url("./../img/aquila.png");
+	background-size: contain;
+	background-color: grey;
+	background-repeat: no-repeat;
+
+
+	border: double black 3px;
+}
+
+.marineDiv.reverse
+{
+    transform:rotate(180deg);
+}
+
+
+.marineDiv object
+{
+    height:80%;
+}
+
+.name{
+	color: white;
+	font-weight: bolder;
+	font-size: 26px;
+}
+
+#map
+{
+    position:relative;
+    left:370px;
+    z-index:-2;
+    width:100%;
+    height:100%;
+
+}
+
+.view{
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    transform:translateX(-50%);
+    font-weight:bold;
+}
+
+object
+{
+	height: 80%;
+}
+
+#zoom
+{
+    background-color:grey;
+    border-color:black;
+    border-style:solid;
+    transform:rotate(-90deg);
+    position:fixed;
+    top:150px;
+    right:200px;
+    padding:5px 5px;
+    z-index:3;
+    width:250px;
+}
+
+#zoom input
+{
+    -webkit-appearance:none;
+    width:95%;
+    border-radius: 8px;
+    height: 7px;
+    border: 1px solid #bdc3c7;
+    background-color: #fff; 
+    height:20px;
+}
+
+#zoom input::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#maps-icon-open
+{
+    width:70px;
+    position:fixed;
+    bottom:20px;
+    left:320px;
+    cursor:pointer;
+}
+
+#docs-icon-open
+{
+    width:70px;
+    position:fixed;
+    bottom:20px;
+    right:320px;
+    cursor:pointer;
+}
+
+#handlerDiv
+{
+    width: 50%;
+    height: 95%;
+    background-color: grey;
+    border-style:solid;
+    border-color:black;
+    border-radius:10px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+    z-index:5;
+    overflow:auto;
+
+}
+
+#handlerDiv.reverse
+{
+    transform:translate(-50%, -50%) rotate(180deg);
+    animation-name:rotate180;
+    animation-duration:0.4s;
+    animation-fill-mode:forwards;
+}
+
+#handlerDiv.normal
+{
+    animation-name:rotate0;
+    animation-duration:0.4s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes rotate180
+{
+    from{transform:translate(-50%, -50%) rotate(0deg);}
+    to{transform:translate(-50%, -50%) rotate(180deg);}
+}
+
+@keyframes rotate0
+{
+    from{transform:translate(-50%, -50%) rotate(180deg);}
+    to{transform:translate(-50%, -50%) rotate(360deg);}
+}
+
+#handler-icon-close
+{
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:30px;
+    cursor:pointer;
+}
+
+#handler-icon-rotate
+{
+    width: 30px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    cursor:pointer;
+}
+
+.list
+{
+    margin:10px 10px;
+    color:white;
+    font-weight:bold;
+}
+
+.list p.title 
+{
+    cursor:pointer;
+    text-align:center;
+}
+
+.list p.title:hover
+{
+    color:black;
+}
+
+#text
+{
+    color:black;
+    border-style:solid;
+    border-color:black;
+    border-radius:10px;
+    line-height:150%;
+    padding:10px 10px;
+}
+
+#noMaps, #noDocs{
+	display:none;
+	color:white;
+	text-align: center;
+    font-weight:bold;
+}

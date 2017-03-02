@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<archive>
+  <map id="0" title="grande1" visible="no" src="grande1.jpg"/>
+  <map id="1" title="grande2" visible="no" src="grande2.jpg"/>
+  <map id="2" title="grande3" visible="no" src="grande3.jpg"/>
+  <map id="3" title="grande4" visible="no" src="grande4.jpg"/>
+  <map id="4" title="labirinto1" visible="no" src="labirinto1.jpg"/>
+  <map id="5" title="livello1" visible="yes" src="livello1.png"/>
+  <map id="6" title="livello2" visible="yes" src="livello2.png"/>
+  <map id="7" title="livello3" visible="yes" src="livello3.png"/>
+  <map id="8" title="mappa-dopo" visible="yes" src="mappa-dopo.jpg"/>
+  <map id="9" title="panoramica" visible="yes" src="panoramica.jpg"/>
+  <map id="10" title="piccolo1" visible="no" src="piccolo1.jpg"/>
+  <map id="11" title="piccolo2" visible="no" src="piccolo2.jpg"/>
+  <map id="12" title="piccolo3" visible="no" src="piccolo3.jpg"/>
+  <map id="13" title="piccolo4" visible="yes" src="piccolo4.jpg"/>
+</archive>

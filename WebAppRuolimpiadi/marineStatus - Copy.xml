@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<marines>
+  
+  <marine id="0">
+    <hp value="0"></hp>
+    <bodystatus>
+      <head value="6"></head>
+      <torso value="5"></torso>
+      <rightleg value="removed"></rightleg>
+      <leftleg value="removed"></leftleg>
+      <rightarm value="5"></rightarm>
+      <leftarm value="0"></leftarm>
+    </bodystatus> 
+  </marine>
+
+  <marine id="1">
+    <hp value="0"></hp>
+    <bodystatus>
+      <head value="0"></head>
+      <torso value="0"></torso>
+      <rightleg value="0"></rightleg>
+      <leftleg value="0"></leftleg>
+      <rightarm value="removed"></rightarm>
+      <leftarm value="0"></leftarm>
+    </bodystatus>
+  </marine>
+
+  <marine id="2">
+    <hp value="20"></hp>
+    <bodystatus>
+      <head value="0"></head>
+      <torso value="0"></torso>
+      <rightleg value="0"></rightleg>
+      <leftleg value="0"></leftleg>
+      <rightarm value="0"></rightarm>
+      <leftarm value="0"></leftarm>
+    </bodystatus>
+  </marine>
+
+  <marine id="3">
+    <hp value="0"></hp>
+    <bodystatus>
+      <head value="3"></head>
+      <torso value="0"></torso>
+      <rightleg value="0"></rightleg>
+      <leftleg value="0"></leftleg>
+      <rightarm value="0"></rightarm>
+      <leftarm value="0"></leftarm>
+    </bodystatus>
+  </marine>
+</marines>

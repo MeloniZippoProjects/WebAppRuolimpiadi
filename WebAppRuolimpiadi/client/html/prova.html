@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script></script>
+    <script src="../../jquery.js"></script>
+
+	<script>
+		function load()
+		{
+			var aq = document.getElementById("aq");
+
+			aq.addEventListener("pointerdown", pointer);
+		}
+
+		function pointer(event)
+		{
+			switch (event.pointerType)
+			{
+				case "pen":
+					console.log("penna");
+					break;
+				case "touch":
+					console.log("tocco");
+					break;
+				case "mouse":
+					console.log("mouse");
+					break;
+
+				default:
+					console.log("wtf");
+			}
+		}
+	</script>
+
+</head>
+<body onload="load()">
+	<img id="aq" src="./../img/aquila.png"/>
+</body>
+</html>
